@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuisine Paradise | Catering</title>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><img
+          src="images/chef-hat-1588125_640.png"
+          height="30px"
+          width="40px"
+        />CUISINE PARADISE</a
+      >
+      <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="menu.html">MENU</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="recipe.html">RECIPES</a>
+        <a href="orders.html">CATERING</a>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h2 id="order-heading">Explore our Buffet options</h2>
+        <p>Whatever your occasions, we have you covered.</p>
+        <h2 id="order-h2">Our Offerings:</h2>
+        <table id="ordertable">
+          <thead>
+            <tr>
+              <th>Package name</th>
+              <th>Maximum guests</th>
+              <th>Average Cost per person</th>
+              <th>Depost Fees</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Standard</td>
+              <td>25</td>
+              <td>$17 per person</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>Premium</td>
+              <td>75</td>
+              <td>$25 per person</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>Corporate</td>
+              <td>100</td>
+              <td>$30 per person</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>Wedding</td>
+              <td>500</td>
+              <td>$60 per person</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>Reception</td>
+              <td>350</td>
+              <td>$50 per person</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>Custom</td>
+              <td>Minimum 500</td>
+              <td>Contact us</td>
+              <td>Contact us</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <h2 id="order-heading">Not sure what fits you?</h2>
+        <div id="divwrap">
+          <div id="contactcol">
+            <h3>Let our team help you out:</h3>
+            <form id="orderform">
+              <label for="myName">Name:</label>
+              <input type="text" id="myName" name="myName" required />
+              <label for="myEmail">Email:</label>
+              <input type="email" id="myEmail" name="myEmail" required />
+              <label for="myStart">Your preferred appointment date:</label>
+              <input type="date" id="myStart" name="myStart" required />
+              <label for="myExperience">Queries, if any:</label>
+              <textarea
+                rows="2"
+                max-cols="20"
+                required
+                name="myExperience"
+                id="myExperience"
+              ></textarea>
+              <input type="submit" value="Submit" id="mySubmit" />
+            </form>
+          </div>
+          <div>
+            <h3>Our previous reservations:</h3>
+            <div id="ordercard">
+              <div class="column">
+                <div class="row">
+                  <div class="card">
+                    <h3>Package: Wedding</h3>
+                    <p id="card-p-quote">
+                      <i
+                        >Best food I have ever had on a wedding, all of my
+                        guests were delighted to have such great food at our
+                        event. Would recomment it to everyone.</i
+                      >
+                    </p>
+                    <p id="card-p">
+                      <b>Steve Wozniak </b><br /><span id="desg"
+                        >Co-Founder of Apple</span
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="card">
+                    <h3>Package: Custom</h3>
+                    <p id="card-p-quote">
+                      <i
+                        >I booked their services for my staff of 800 people, and
+                        to my surprise it was much better than what I
+                        anticipated. The service was incredible and food was
+                        amazing.</i
+                      >
+                    </p>
+                    <p id="card-p">
+                      <b>Mark Zukerberg </b><br /><span id="desg"
+                        >Co-Founder of Facebook</span
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="card">
+                    <h3>Package: Wedding</h3>
+                    <p id="card-p-quote">
+                      <i>10/10. Would take their service everytime.</i>
+                    </p>
+                    <p id="card-p">
+                      <b>Satya Nadella </b><br /><span id="desg"
+                        >CEO Microsoft</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+    <!-- footer section  -->
+
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">pinterest</a>
+        <a href="#" class="btn">linkedin</a>
+      </div>
+      <h1 class="credit">
+        Copyright &copy; 2021 CUISINE PARADISE All Rights Reserved
+      </h1>
+    </section>
+
+    <!-- scroll top button  -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+  </body>
+</html>
